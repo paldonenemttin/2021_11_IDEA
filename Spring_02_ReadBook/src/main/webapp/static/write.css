@@ -1,0 +1,56 @@
+.content-box{
+    display: flex;
+    flex-direction: column;
+    width: 90vw;
+    margin-left: 5%;
+}
+.one{
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+}
+.one input{
+    width:50vw;
+    height: 5vh;
+}
+.two{
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+}
+.three{
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.button_box{
+    display: flex;
+    justify-content: right;
+    margin-bottom: 20px;
+    width: 90vw;
+    margin-left: 5%;
+}
+#save{
+    background-color: cadetblue;
+    color: white;
+    margin-right: 10px;
+}
+#reset{
+    background-color: tomato;
+    color: white;
+    margin-right: 10px;
+}
+#list{
+    background-color: yellow;
+    color: black;
+}
+
+.btn_boys{
+    padding: 3px;
+    border-radius: 2px;
+    box-shadow: 1px 1px 1px gray;
+    width: 10%;
+    height: 30px;
+}
