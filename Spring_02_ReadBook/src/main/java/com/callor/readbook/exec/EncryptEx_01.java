@@ -11,14 +11,19 @@ public class EncryptEx_01 {
         String salt = "!Biz1234";
         // SHA-128, SHA-256, SHA-512, SHA-1024
         String encPolicy = "PBEWithMD5AndDES";
-
         pbe.setAlgorithm(encPolicy);
         pbe.setPassword(salt);
 
-        String encText = pbe.encrypt(name);
-        System.out.println(encText);
+        String username = "root";
+        String password = "1234";
 
-        String planText = pbe.decrypt(encText);
+        String encUserName = pbe.encrypt(username);
+        String encPassword = pbe.encrypt(password);
+
+        System.out.println(encUserName);
+        System.out.println(encPassword);
+
+        String planText = pbe.decrypt(encUserName);
         System.out.println(planText);
 
 
